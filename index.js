@@ -3,7 +3,7 @@ let Index;
 const weight = prompt("Kilonuzu Giriniz");
 const height = prompt("Boyunuzu giriniz (1.75)");
 
-Index = (weight) / (height*height);
+Index = Math.floor((weight) / (height*height));
 console.log(Index)
 
 if (Index < 0){
